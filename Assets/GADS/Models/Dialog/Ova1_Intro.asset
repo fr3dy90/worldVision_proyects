@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 654a9a0361f6ef948b1145155f2e413b, type: 3}
+  m_Name: Ova1_Intro
+  m_EditorClassIdentifier: 
+  Dialogs:
+  - characterName: Personaje 1
+    characterImage: {fileID: 21300000, guid: 2c18a9a83d0dcc644b6116dac722a19c, type: 3}
+    dialogLines:
+    - "La toma de decisiones es un proceso fundamental que implica la selecci\xF3n
+      de caminos y acciones a seguir para alcanzar las metas que te propongas en
+      relaci\xF3n con tu proyecto de vida. "
+    timeToDisplay: 10
+    typewriterEffect: 1
+    advanceAutomatically: 0
+    autoAdvanceWithTime: 0
+  - characterName: Personaje 2
+    characterImage: {fileID: 21300000, guid: 9300c31ff6104c64daf266a541c05f2c, type: 3}
+    dialogLines:
+    - "Adem\xE1s, es un ejercicio din\xE1mico, complejo y multidimensional, debido
+      a que en este influyen muchos factores, tanto internos, como externos, que
+      pueden afectar tu elecci\xF3n. "
+    timeToDisplay: 10
+    typewriterEffect: 1
+    advanceAutomatically: 0
+    autoAdvanceWithTime: 0
+  - characterName: Personaje 1
+    characterImage: {fileID: 21300000, guid: 2c18a9a83d0dcc644b6116dac722a19c, type: 3}
+    dialogLines:
+    - "En este caso en particular, hablaremos de la importancia que tiene la toma
+      de decisiones para poder elegir la o las mejores opciones que te permitan continuar
+      con tu proceso de formaci\xF3n, una vez termines el colegio.  "
+    timeToDisplay: 10
+    typewriterEffect: 1
+    advanceAutomatically: 0
+    autoAdvanceWithTime: 0
