@@ -17,7 +17,16 @@ public class MyEnums : MonoBehaviour
         Palabrero_2,
         QueHarias,
         Ahorcado,
-        Reflexion
+        Reflexion,
+        //////////////// OVA 2 //////////////////
+        Momento_1,
+        Momento_2,
+        Momento_3,
+        TomaDecisiones,
+        HerramientaEstrategias,
+        EnContextoI,
+        EnContextoII,
+        Revisemos
     }
 
     public enum MainMenuStep

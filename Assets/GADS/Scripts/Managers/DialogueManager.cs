@@ -1,3 +1,4 @@
+using System;
 using Cysharp.Threading.Tasks;
 using TMPro;
 using UnityEngine;
@@ -5,10 +6,12 @@ using UnityEngine.UI;
 
 public class DialogueManager : MonoBehaviour
 {
+    public Action OnComplete;
+    
     public DialogModel test;
     public int index = 0;
     
-     [Header("UI References")]
+    [Header("UI References")]
     public Image characterImage;
     public TextMeshProUGUI characterNameText;
     public TextMeshProUGUI dialogText;
@@ -23,10 +26,24 @@ public class DialogueManager : MonoBehaviour
 
     void Start()
     {
+         // Conectar el botón de avance
+        // Iniciar el botón oculto si no se quiere avanzar con el botón
+        
+    }
+
+    public void InitializeDialog(int _index)
+    {
+        index = _index;
+        dialogPanel.SetActive(false);
+        nextButton.onClick.AddListener(AdvanceDialog);
+    }
+
+    public void StartCurrentDialog(int index)
+    {
         currentDialog = test.Dialogs[index];
-        nextButton.onClick.AddListener(AdvanceDialog); // Conectar el botón de avance
-        nextButton.gameObject.SetActive(false); // Iniciar el botón oculto si no se quiere avanzar con el botón
+        nextButton.gameObject.SetActive(false);
         StartDialog(currentDialog);
+
     }
 
     // Iniciar el diálogo
@@ -38,6 +55,11 @@ public class DialogueManager : MonoBehaviour
         // Mostrar la imagen y el nombre del personaje
         characterImage.sprite = dialog.characterImage;
         characterNameText.text = dialog.characterName;
+
+        if (dialogPanel.activeSelf == false)
+        {
+            dialogPanel.SetActive(true);
+        }
 
         ShowNextLine();
     }
@@ -57,7 +79,7 @@ public class DialogueManager : MonoBehaviour
         await DisplayText(line);
 
         currentLineIndex++;
-    }
+    } 
 
     // Mostrar el texto con el efecto de máquina de escribir
     async UniTask DisplayText(string line)
@@ -107,13 +129,18 @@ public class DialogueManager : MonoBehaviour
     void EndDialog()
     {
         dialogPanel.SetActive(false); // Desactivar el panel de diálogo
+        
         Debug.Log("Diálogo finalizado.");
 
-
+        index++;
         if (index < test.Dialogs.Length)
         {
-            index++;
             StartDialog(test.Dialogs[index]);
         }
+        else
+        {
+            OnComplete?.Invoke();
+        }
+            
     }
 }
