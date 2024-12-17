@@ -7,6 +7,7 @@ public class MomentoIController : BaseController
 
     public override void Initialize()
     {
+        base.Initialize();
         _dialogueManager.OnComplete += OnCallMomentoIIContreoller;
         _dialogueManager.InitializeDialog(0);
     }
