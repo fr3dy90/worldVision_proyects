@@ -494,11 +494,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6608121417224580128, guid: 7ab760e2f519c4906af1cb53b9b3a7dc, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6608121417224580128, guid: 7ab760e2f519c4906af1cb53b9b3a7dc, type: 3}
       propertyPath: m_AnchorMin.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6608121417224580128, guid: 7ab760e2f519c4906af1cb53b9b3a7dc, type: 3}
       propertyPath: m_SizeDelta.x
@@ -510,11 +510,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6608121417224580128, guid: 7ab760e2f519c4906af1cb53b9b3a7dc, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0
+      value: 4389
       objectReference: {fileID: 0}
     - target: {fileID: 6608121417224580128, guid: 7ab760e2f519c4906af1cb53b9b3a7dc, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: -62.83355
       objectReference: {fileID: 0}
     - target: {fileID: 6608121417224580129, guid: 7ab760e2f519c4906af1cb53b9b3a7dc, type: 3}
       propertyPath: m_text
@@ -610,7 +610,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6608121417474364142, guid: 7ab760e2f519c4906af1cb53b9b3a7dc, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 0
+      value: 8778
       objectReference: {fileID: 0}
     - target: {fileID: 6608121417474364142, guid: 7ab760e2f519c4906af1cb53b9b3a7dc, type: 3}
       propertyPath: m_SizeDelta.y
@@ -1451,7 +1451,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &346317034
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3230,11 +3230,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6608121417224580128, guid: 7ab760e2f519c4906af1cb53b9b3a7dc, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6608121417224580128, guid: 7ab760e2f519c4906af1cb53b9b3a7dc, type: 3}
       propertyPath: m_AnchorMin.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6608121417224580128, guid: 7ab760e2f519c4906af1cb53b9b3a7dc, type: 3}
       propertyPath: m_SizeDelta.x
@@ -3246,11 +3246,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6608121417224580128, guid: 7ab760e2f519c4906af1cb53b9b3a7dc, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0
+      value: 4389
       objectReference: {fileID: 0}
     - target: {fileID: 6608121417224580128, guid: 7ab760e2f519c4906af1cb53b9b3a7dc, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: -62.83355
       objectReference: {fileID: 0}
     - target: {fileID: 6608121417224580129, guid: 7ab760e2f519c4906af1cb53b9b3a7dc, type: 3}
       propertyPath: m_text
@@ -3346,7 +3346,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6608121417474364142, guid: 7ab760e2f519c4906af1cb53b9b3a7dc, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 0
+      value: 8778
       objectReference: {fileID: 0}
     - target: {fileID: 6608121417474364142, guid: 7ab760e2f519c4906af1cb53b9b3a7dc, type: 3}
       propertyPath: m_SizeDelta.y
@@ -4353,7 +4353,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &846211373
 RectTransform:
   m_ObjectHideFlags: 0
@@ -4423,6 +4423,7 @@ MonoBehaviour:
     de nuestra vida. Aunque a veces nos parezca que hay emociones buenas y malas,
     no es as\xED. Todas las emociones hacen parte de nuestra condici\xF3n humana,
     lo que las hace positivas o negativas es la forma en que las asumimos.\r\r\n"
+  _pairs: 0
 --- !u!1 &856346772
 GameObject:
   m_ObjectHideFlags: 0
@@ -4927,7 +4928,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &950223949
 RectTransform:
   m_ObjectHideFlags: 0
@@ -6151,11 +6152,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6608121417224580128, guid: 7ab760e2f519c4906af1cb53b9b3a7dc, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6608121417224580128, guid: 7ab760e2f519c4906af1cb53b9b3a7dc, type: 3}
       propertyPath: m_AnchorMin.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6608121417224580128, guid: 7ab760e2f519c4906af1cb53b9b3a7dc, type: 3}
       propertyPath: m_SizeDelta.x
@@ -6167,11 +6168,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6608121417224580128, guid: 7ab760e2f519c4906af1cb53b9b3a7dc, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0
+      value: 4389
       objectReference: {fileID: 0}
     - target: {fileID: 6608121417224580128, guid: 7ab760e2f519c4906af1cb53b9b3a7dc, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: -62.83355
       objectReference: {fileID: 0}
     - target: {fileID: 6608121417224580129, guid: 7ab760e2f519c4906af1cb53b9b3a7dc, type: 3}
       propertyPath: m_text
@@ -6267,7 +6268,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6608121417474364142, guid: 7ab760e2f519c4906af1cb53b9b3a7dc, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 0
+      value: 8778
       objectReference: {fileID: 0}
     - target: {fileID: 6608121417474364142, guid: 7ab760e2f519c4906af1cb53b9b3a7dc, type: 3}
       propertyPath: m_SizeDelta.y
@@ -6882,7 +6883,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1398275839
 RectTransform:
   m_ObjectHideFlags: 0
@@ -6952,6 +6953,7 @@ MonoBehaviour:
     de nuestra vida. Aunque a veces nos parezca que hay emociones buenas y malas,
     no es as\xED. Todas las emociones hacen parte de nuestra condici\xF3n humana,
     lo que las hace positivas o negativas es la forma en que las asumimos.\r\r\n"
+  _pairs: 0
 --- !u!1 &1423562806
 GameObject:
   m_ObjectHideFlags: 0
@@ -7995,7 +7997,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1545088640
 Transform:
   m_ObjectHideFlags: 0
@@ -9147,7 +9149,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1914085973
 RectTransform:
   m_ObjectHideFlags: 0
@@ -9217,6 +9219,7 @@ MonoBehaviour:
     de nuestra vida. Aunque a veces nos parezca que hay emociones buenas y malas,
     no es as\xED. Todas las emociones hacen parte de nuestra condici\xF3n humana,
     lo que las hace positivas o negativas es la forma en que las asumimos.\r\r\n"
+  _pairs: 0
 --- !u!1 &1915184370
 GameObject:
   m_ObjectHideFlags: 0

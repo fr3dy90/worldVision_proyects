@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a79304f4fba48d4ba889ffefbd81c2d, type: 3}
+  m_Name: MomentoIII
+  m_EditorClassIdentifier: 
+  dataStructs:
+  - MainQuest: Autoconocimiento
+    OptionI: "No me llaman la atenci\xF3n los deportes, pero he descubierto que tengo
+      afinidad con las ciencias sociales.\r\n"
+    OptionII: "En mi casa me aconsejan adelantar un programa de formaci\xF3n t\xE9cnica,
+      pero yo quisiera hacer una carrera profesional."
+  - MainQuest: Contexto laboral
+    OptionI: "Los sectores productivos son las agrupaciones de las actividades laborales
+      seg\xFAn sus caracter\xEDsticas\r\n"
+    OptionII: "La actividad econ\xF3mica que emplea la mayor cantidad de j\xF3venes
+      son los centros de llamada o Callcenters.\r\n"
+  - MainQuest: 'Asesoramiento '
+    OptionI: "La Agencia distrital para la Educaci\xF3n Superior, la Ciencia y la
+      Tecnolog\xEDa -Atenea, proporciona informaci\xF3n sobre espacios de formaci\xF3n
+      gratuita, pertinente y de calidad.\r\n"
+    OptionII: "\xBFBuscando carrera? Es una herramienta virtual que proporciona informaci\xF3n
+      completa sobre los programas de pregrado que ofrecen las instituciones de educaci\xF3n
+      superior en Colombia.\r\n"
+  - MainQuest: "Identificaci\xF3n de metas"
+    OptionI: "Contar con tres opciones claras de programas acad\xE9micos para poder
+      elegir el que m\xE1s se ajuste a mis intereses y expectativas. \r\n"
+    OptionII: "Dedicar una hora diaria a la preparaci\xF3n de las pruebas de admisi\xF3n
+      para el programa acad\xE9mico de mi inter\xE9s. \r\n"

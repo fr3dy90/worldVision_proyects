@@ -12,7 +12,7 @@ public class QueHariasView : BaseView
      public Button _buttonI;
      public Button _buttonII; 
      
-     [SerializeField] private MyEnums.QueHariasStruct[] _queHarias;
+     [SerializeField] private MyEnums.BasicDataStruct[] _queHarias;
 
      public override void Initialize()
      {
@@ -22,12 +22,12 @@ public class QueHariasView : BaseView
 
      public void Settext(int index)
      {
-          _situacionText.text = _queHarias[index].Situacion;
-          _optionI.text = _queHarias[index].optionI;
-          _optionII.text = _queHarias[index].optionII;
+          _situacionText.text = _queHarias[index].MainQuest;
+          _optionI.text = _queHarias[index].OptionI;
+          _optionII.text = _queHarias[index].OptionII;
      }
      
-     public MyEnums.QueHariasStruct[] GetQueHarias()
+     public MyEnums.BasicDataStruct[] GetQueHarias()
      {
           return _queHarias;
      }

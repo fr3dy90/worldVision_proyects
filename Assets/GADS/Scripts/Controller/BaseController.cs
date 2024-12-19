@@ -16,7 +16,7 @@ public class BaseController : MonoBehaviour
 
     public virtual void OnSetView()
     {
-        
+        _view.OnSetView();
     }
 
     public virtual void OnStart()

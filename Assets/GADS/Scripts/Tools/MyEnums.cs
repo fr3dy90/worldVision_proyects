@@ -27,6 +27,7 @@ public class MyEnums : MonoBehaviour
         EnContextoI,
         EnContextoII,
         Revisemos
+        //////////////// OVA 2 //////////////////
     }
 
     public enum MainMenuStep
@@ -79,10 +80,18 @@ public class MyEnums : MonoBehaviour
     }
     
     [System.Serializable]
-    public struct QueHariasStruct
+    public struct BasicDataStruct
     {
-        [TextArea(3,3)] public string Situacion;
-        [TextArea(3,3)] public string optionI;
-        [TextArea(3,3)] public string optionII;
+        [TextArea(3,3)] public string MainQuest;
+        [TextArea(3,3)] public string OptionI;
+        [TextArea(3,3)] public string OptionII;
     }
+    
+    [System.Serializable]
+    public struct SimpleDataStruct
+    {
+        [TextArea(3,3)] public string Title;
+        [TextArea(3,3)]public string Paragraph;
+    }
+    
 }
